@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mike\'sGarageSale</string>
+    <string name="title_hint">Enter title of the item</string>
+    <string name="price_hint">Enter price</string>
+    <string name="desc_hint">Enter item description</string>
+    <string name="postbtn_text">Post</string>
+</resources>
