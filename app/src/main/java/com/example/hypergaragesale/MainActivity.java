@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void newItemAdded(View v) {
         // TODO - add code for new items here
+        System.out.println("Pressed Post - NewItem button");
     }
 }
