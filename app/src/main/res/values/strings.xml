@@ -4,4 +4,5 @@
     <string name="price_hint">Enter price</string>
     <string name="desc_hint">Enter item description</string>
     <string name="postbtn_text">Post</string>
+    <string name="new_post_snackbar">Thanks for posting!</string>
 </resources>
