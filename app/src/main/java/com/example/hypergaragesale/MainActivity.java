@@ -1,16 +1,26 @@
 package com.example.hypergaragesale;
 
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+// This is called NewPostActivity in the canonical project
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar == null) {
+            return; // not sure if this is the best action, but it avoids the compiler warning
+        }
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
 
     public void newItemAdded(View v) {
