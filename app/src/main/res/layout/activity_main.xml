@@ -63,13 +63,6 @@
             android:paddingTop="@dimen/activity_vertical_margin"
             android:background="@drawable/text_border"
             android:hint="@string/desc_hint" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/itemPost"
-            android:layout_gravity="end"
-            android:onClick="newItemAdded"
-            android:text="@string/postbtn_text" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
