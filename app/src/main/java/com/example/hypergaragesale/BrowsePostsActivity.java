@@ -38,8 +38,8 @@ public class BrowsePostsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-                // NOTE: MainActivity is NewPostActivity in canonical project
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                // NOTE: NewPostActivity is NewPostActivity in canonical project
+                startActivity(new Intent(getApplicationContext(), NewPostActivity.class));
             }
         });
 

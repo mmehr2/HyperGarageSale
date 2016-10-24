@@ -6,4 +6,5 @@
     <string name="postbtn_text">Post</string>
     <string name="new_post_snackbar">Thanks for posting!</string>
     <string name="title_activity_browse_posts">BrowsePostsActivity</string>
+    <string name="error_post_snackbar">Please provide data for all form entries.</string>
 </resources>
