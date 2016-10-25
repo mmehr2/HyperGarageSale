@@ -75,6 +75,9 @@ public class NewPostActivity extends AppCompatActivity {
     }
 
     private void addPost() {
+        // hide the soft keyboard in any case
+        HideKeyboard.with(this);
+
         // Input the String values for validation
         String strTitle = titleText.getText().toString().trim();
         String strDescription = descText.getText().toString().trim();
@@ -100,7 +103,6 @@ public class NewPostActivity extends AppCompatActivity {
             priceText.setText(""); // make sure any white space is cleared too
         }
         if (!errorCondition.isEmpty()) {
-            // TODO: make keyboard go away so you can see the SnackBar error message!
             return;
         }
 
